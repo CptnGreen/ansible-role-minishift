@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include minishift"
+      include_role:
+        name: "minishift"
